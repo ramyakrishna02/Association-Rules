@@ -10,3 +10,13 @@ Association rules can be measured by metrics such as support, confidence, and li
 - Pre-Processing the data
 -  Applying the Apriori Algorithm
     - uisng different support and confidence values.
+- Visualizations
+
+## Packages Used
+- Pandas
+- Numpy
+- Matplotlib.pyplot
+- Seaborn
+- Warnings
+- from mlxtend.frequent_patterns import apriori,association_rules
+- from mlxtend.preprocessing import TransactionEncoder
