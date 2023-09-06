@@ -1,9 +1,11 @@
 # Association Rules
-Association rules are a type of data mining technique that can discover interesting patterns and relationships among items in a dataset. They are often used for market basket analysis, which is the process of finding what products customers tend to buy together. 
+Association rules are a data mining technique used to find patterns in large datasets, revealing associations between items or events. 
+These rules are often used in applications like market basket analysis, recommendation systems, and fraud detection. 
+They consist of two key metrics: support (measuring itemset frequency) and confidence (measuring the strength of associations). 
 
-For example, an association rule might be “if a customer buys bread and butter, they are likely to buy eggs as well”. 
+For example, an association rule might be “Customers who order a pizza tend to add garlic bread to their order”. 
 
-Association rules can be measured by metrics such as support, confidence, and lift, which indicate how frequent and reliable the rules are. There are different algorithms for generating association rules, such as Apriori, Eclat, and FPGrowth.
+Algorithms like Apriori and FP-growth are commonly employed to discover these rules. Association rules help businesses optimize strategies, improve recommendations, and identify hidden relationships in their data.
 
 ## Implementation
 - Importing the Libraries and Reading the dataset
